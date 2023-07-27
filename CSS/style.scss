@@ -1,0 +1,614 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ ul {
+     list-style: none !important;
+     margin: 0;
+     padding: 0;
+ }
+
+ a {
+     text-decoration: none !important;
+     color: #262626 !important;
+ }
+
+ header {
+     overflow: hidden;
+
+     .navigation-menu {
+         position: fixed;
+         z-index: 10;
+         padding: 10px 40px;
+         width: 100%;
+         top: 0;
+         left: 0;
+         background-color: #222;
+
+         a {
+             color: white !important;
+         }
+
+         ul {
+             margin: 0;
+             padding: 0;
+         }
+
+         .logo {
+             width: 120px;
+
+             img {
+                 width: 100%;
+             }
+         }
+
+         .navbars {z-index: 100;
+             .nav-names {
+                .nav-element{
+                    &:hover .big-menu{ opacity: 1;
+                        visibility: visible;
+                        max-height: 20em;
+                    }
+                a{padding: 0 23px;text-transform: uppercase; } 
+                .big-menu{
+                    background-color: #222;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: ease-in-out .8s;
+                max-height: 0;overflow: hidden;
+                    
+                position: absolute;top: 180%;right: -184%;width:100vw; height: 1000%; padding: 0 0;
+                .big-ul{border-left: 1px solid  #373737 ;
+                   
+                a{display: inline-block; transition: 0.2s linear;
+                    font-size: 12px ; font-weight: 400;
+                    &:hover{transform: translateX(15px);}
+
+                }
+                }
+                }   
+                }
+
+
+
+                 .nav-name {
+                     &:hover .ul-hover {
+                         opacity: 1;
+                         visibility: visible;
+                     }
+
+                     &:hover .ul-hover2 {
+                         opacity: 1;
+                         visibility: visible;
+                     }
+
+                     &:hover .ul-hover3 {
+                         opacity: 1;
+                         visibility: visible;
+                     }
+                     &:hover .ul-hover4{opacity: 1;
+                        visibility: visible;}
+                        &:hover .ul-hover5{opacity: 1;
+                            visibility: visible;}
+                     .ul-hover {
+                         position: absolute;
+                         top: 210%;
+                         left: 0%;
+                         background-color: #222;
+                         width: 200px;
+                         height: 125px;
+                         padding: 15px 25px 0 0;
+                         opacity: 0;
+                         visibility: hidden;
+                         transition: ease-out 1s;
+
+                         a {
+                             font-size: 12px;
+                             font-weight: 400;
+                         }
+                     }
+
+                     a {
+                         padding: 0 23px;
+                         font-size: 16px;
+                         letter-spacing:  1px;
+                         text-transform: uppercase;
+                     }
+
+                     .ul-hover2 {
+                         position: absolute;
+                         top: 210%;
+                         left: 0%;
+                         background-color: #222;
+                         width: 200px;
+                         height: 206px;
+                         padding: 15px 25px 0 0;
+                         opacity: 0;
+                         visibility: hidden;
+                         transition: ease-out 1s;
+
+                         a {
+                             font-size: 12px;
+                             font-weight: 400;
+                         }
+                     }
+
+                     .ul-hover3 {
+                         position: absolute;
+                         top: 210%;
+                         left: 0%;
+                         background-color: #222;
+                         width: 200px;
+                         height: 155px;
+                         padding: 15px 25px 0 0;
+                         opacity: 0;
+                         visibility: hidden;
+                         transition: ease-out 1s;
+
+                         .li-hover3 {
+                             &:hover .ul-hover3-add {
+                                 opacity: 1;
+                                 visibility: visible;
+                             }
+
+                             &:hover .ul-hover3-add2 {
+                                 opacity: 1;
+                                 visibility: visible;
+                             }
+
+                             a {
+                                 font-size: 12px;
+                                 font-weight: 400;
+                             }
+
+                             .ul-hover3-add {
+                                 position: absolute;
+                                 top: 50%;
+                                 left: 114%;
+                                 background-color: #222;
+                                 width: 200px;
+                                 height: 175px;
+                                 padding: 15px 25px 0 0;
+                                 opacity: 0;
+                                 visibility: hidden;
+                                 transition: ease-out 1s;
+                             }
+
+                             .ul-hover3-add2 {
+                                 position: absolute;
+                                 top: 50%;
+                                 left: 114%;
+                                 background-color: #222;
+                                 width: 200px;
+                                 height: 165px;
+                                 padding: 15px 25px 0 0;
+                                 opacity: 0;
+                                 visibility: hidden;
+                                 transition: ease-out 1s;
+                             }
+                         }
+
+
+
+
+                     }
+                     .ul-hover4{position: absolute;top: 210%;left: 0;background-color: #222;
+                        width: 210px;
+                        height: 145px;
+                        padding: 15px 25px 0 0;
+                        opacity: 0;
+                                visibility: hidden;
+                                transition: ease-out 1s;
+                        a{font-size: 12px;
+                            font-weight: 400;}
+                            .position-relative:hover .ul-hover4-add{opacity: 1;
+                                visibility: visible;}
+                            .ul-hover4-add{position: absolute;top: 100%;left: 112%;width: 210px;
+                                height: 180px;
+                                padding: 15px 25px 0 0;background-color: #222; opacity: 0;
+                                visibility: hidden;
+                                transition: ease-out 1s;}
+                     }
+                       
+                        .ul-hover5{position: absolute;top: 210%;left: 0%;width: 210px;
+                            height: 150px;
+                            padding: 15px 25px 0 0;background-color: #222;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: ease-out 1s;
+                            a{font-size: 12px;
+                                font-weight: 400;}
+
+                                .ulhover5-ad{position: absolute;top: 100%;left: -113%;width: 210px;
+                                    height: 110px;
+                                    padding: 15px 0 0 60px;background-color: #222;align-items: end;opacity: 0;
+                                    visibility: hidden;
+                                    transition: ease-out 1s;}
+
+                                    .position-relative:hover .ulhover5-ad{opacity: 1;visibility: visible;}
+                        }
+
+                        
+                        
+                        }
+                        
+
+                 }
+
+
+             }
+             
+         }
+
+         .nav-icons {
+             .nav-icon {
+                 a {
+                     padding: 0 20px;
+
+                     span {
+                         font-size: 12px;
+                         bottom: 10px;
+                         left: 40px;
+                         font-weight: 400;
+                     }
+                 }
+             
+         }
+
+
+         
+     }
+
+     .bg-font {
+         background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-1.jpg);
+         height: 100vh;
+         background-size: cover;
+         background-attachment: fixed;
+         background-position: center;
+         animation-name: coffe;
+         animation-duration: 7s;
+         animation-timing-function: ease;
+         animation-iteration-count: infinite;
+         animation-direction: alternate-reverse;
+     }
+ }
+
+
+
+ @keyframes coffe {
+     to {
+         transform: scale(1);
+     }
+
+     from {
+         transform: scale(1.1);
+     }
+
+ }
+
+ section .img-animated {
+     position: absolute;
+     top: 20%;
+     left: 48%;
+     color: white !important;
+     text-align: center;
+     overflow: hidden;
+
+     .img-logo {
+         animation-name: cofe-factory;
+         animation-duration: 1s;
+         animation-timing-function: ease-in-out;
+     }
+
+     h1 {
+         font-size: 75px;
+         letter-spacing: 1;
+         font-weight: 300;
+         padding-top: 10px;
+         animation-name: cofe-h1;
+         animation-delay: 0.03s;
+         animation-duration: 1s;
+         animation-timing-function: ease-in-out;
+     }
+
+     .img-logo2 {
+         padding: 10px 0;
+         animation-name: cofe-l2;
+         animation-delay: 0.06s;
+         animation-duration: 1s;
+         animation-timing-function: ease-in-out;
+     }
+
+     p {
+         width: 600px;
+         padding: 15px 0;
+         animation-name: cofe-p;
+         animation-delay: 0.09s;
+         animation-duration: 1s;
+         animation-timing-function: ease-in-out;
+     }
+
+     .buttons button {
+         width: 30%;
+         padding: 20px;
+         animation-name: cofe-button;
+         animation-delay: 0.12s;
+         animation-duration: 1s;
+         animation-timing-function: ease-in-out;
+     }
+ }
+
+ @keyframes cofe-factory {
+     from {
+         transform: translateY(200px);
+     }
+
+     to {
+         transform: translateY(0);
+     }
+ }
+
+ @keyframes cofe-h1 {
+     from {
+         transform: translateY(200px);
+     }
+
+     to {
+         transform: translateY(0);
+     }
+ }
+
+ @keyframes cofe-l2 {
+     from {
+         transform: translateY(200px);
+     }
+
+     to {
+         transform: translateY(0);
+     }
+ }
+
+ @keyframes cofe-p {
+     from {
+         transform: translateY(200px);
+     }
+
+     to {
+         transform: translateY(0);
+     }
+ }
+
+ @keyframes cofe-button {
+     from {
+         transform: translateY(200px);
+     }
+
+     to {
+         transform: translateY(0);
+     }
+ }
+
+ // animation-end
+ .delicious {
+     background-color: #FFFFFF;
+     padding: 100px 0;
+
+     h2 {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 50px;
+         padding-bottom: 20px;
+     }
+
+     
+
+     p {
+         font-family: Open Sans;
+         font-size: 18px;
+         line-height: 1.55em;
+         font-style: normal;
+         font-weight: 300;
+         text-transform: none;
+         padding: 30px 0;
+         width: 55%;
+         margin: auto;
+     }
+
+     .products {
+         padding: 25px 0;
+
+         .product {
+             a {
+                 color: black;
+
+                 h5 {
+                     padding-top: 17px;
+                     color: #262626;
+                 }
+             }
+
+             p {
+                 padding: 0;
+                 width: 82%;
+                 font-size: 16px;
+             }
+         }
+     }
+ }
+
+ //  delicious-end
+ .herald {
+     .background-herald {
+         background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+         width: 100%;
+         background-size: cover;
+         height: 140vh;
+         background-attachment: fixed;
+
+         .herald-item {
+             padding: 120px 0;
+             height: 4px;
+
+             h4 {
+                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 font-size: 50px;
+                 font-weight: 400;
+                 color: #262626;
+             }
+
+             img {
+                 padding-bottom: 20px;
+             }
+
+             p {
+                 padding: 0 330px;
+             }
+         }
+
+         .herald-img-text {
+             padding-top: 100px;
+
+             h6 {
+                 padding-top: 30px;
+
+                 a {
+                     color: #262626;
+                     font-size: 20px;
+                     font-weight: 400;
+                 }
+             }
+
+             p {
+                 font-size: 15px;
+                 color: #656565;
+             }
+
+             .eltdf-btn-text {
+                 color: #262626;
+             }
+         }
+     }
+ }
+
+ //  herald-end
+ .coffe1997 {
+     .background1997 {
+         background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+         width: 100%;
+         height: 70vh;
+         background-attachment: fixed;
+
+         img {
+             top: 100%;
+             left: 40%;
+             padding-top: 120px;
+         }
+     }
+ }
+
+ // coffe1997-end
+ .numbers {
+     padding: 100px 0;
+
+     span {
+         font-size: 50px;
+         color: #be9c79;
+     }
+
+     h5 {
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         font-size: 20px;
+         margin: 10px 0;
+         color: #262626;
+     }
+
+    p {
+        color: #656565;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+// :end
+.coffe-country{text-align: center;
+    .country-backround{background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);width: 100%;height: 100vh;background-size:auto;background-position: center;
+    .online-coffe{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #262626;padding-top:  60px;}
+        img{padding-bottom: 20px;}
+    p{ padding: 0 330px;}
+   .country{
+    .country-images{position: relative;
+    &:hover .countr-inside{display: block;}
+    }
+    .countr-inside{position: absolute;top: 100px;left: 64px;display: none;}
+    
+   }
+    }
+}
+// :end-country
+.sweet-gallery{text-align: center;padding-top: 100px;padding-bottom: 80px;
+    h2{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        font-weight: 400;
+        color: #262626;padding-top:  60px;}
+        img{padding-bottom: 20px;}
+        p{padding: 0 330px;}
+.gallery-images{display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    .gallery-img{
+        img{width: 100%;vertical-align: middle;padding-bottom: 0
+            ;}
+            &:hover{opacity: 50%;transition: .5s linear;}
+            &:hover .images-middle{opacity: 1;visibility: visible;}
+            .images-middle{top: 50%;left: 50%;transform: translate(-50%,-50%);opacity: 0;visibility: hidden;z-index: 5;transition: .5s linear;}
+        }
+}
+
+    
+    
+.gallery-footer{padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    &:hover img{color: #be9c79;}
+}
+
+
+}
+// :end
+.contact-us{
+.contact-bck{background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);width: 100%;height: 35vh;}
+.lorem-contact{padding: 10% 0;
+h6{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seriff; font-weight: 400; font-size: 23px;}
+.contact-button{&:hover .eltdf-btn{background-color: black;}
+a{padding: 15px 20px;
+
+}
+}
+}
+
+}
+.main-end{
+    .end{
+        .end-bck{background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);width: 100%;height: 100vh;}
+    }
+}
+.main-end{
+    .end{text-align: center;
+   .end-logo{padding-top: 100px;}
+   .end-text{
+    p{width: 70%;padding-left: 31%;padding-top: 20px;}
+   }
+   .end-stores{padding: 50px 0;
+    h4{pad: 30px
+        0;}
+   }
+   .end-mail{
+    h3{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-weight: 100;font-size: 24px;}
+   }
+    }
+}
+// main-end end
+footer{background-color: #222;}
